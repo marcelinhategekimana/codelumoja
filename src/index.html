@@ -328,24 +328,7 @@
         </div>
     </div>
 
-
-
-    <!--
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
+    <!--This Newsletter-->
     <div class="bg-gray-800">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
             <div class="lg:w-0 lg:flex-1">
@@ -357,7 +340,7 @@
                 </p>
             </div>
             <div class="mt-8 lg:mt-0 lg:ml-8">
-                <form class="sm:flex">
+                <form name="contact" method="POST" data-netlify="true" class="sm:flex">
                     <label for="email-address" class="sr-only">Email address</label>
                     <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full px-5 py-3 border border-transparent placeholder-gray-500 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white sm:max-w-xs rounded-md"
                         placeholder="Enter your email">
